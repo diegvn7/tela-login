@@ -8,15 +8,21 @@
 }
 
 html, body {
+    width: 100vw;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background-color: rgb(226, 56, 14);
+    position: relative;
 }
 
 main {
-    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
     border-radius: 10px;
     width: 300px;
