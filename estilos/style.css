@@ -15,6 +15,7 @@ html, body {
 
 body {
     background-color: rgb(226, 56, 14);
+    position: relative;
 }
 
 section {
