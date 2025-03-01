@@ -10,27 +10,30 @@
 <body>
     <main>
         <section>
-            <h1>Login</h1>
-            <p>Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <div id="imagem">
+            
+                </div>
+                <h1>Login</h1>
+                <p id="txt">Seja bem vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+            <form action="cadastero.php" method="get" autocomplete="on">
+                <p class="border">
+                    <label for="iemail"><span class="material-icons">person</span></label>
+                    <input class="login" type="email" name="email" id="iemail" autocomplete="email">
+                </p>
+
+                <p class="border">
+                    <label for="isenha"><span class="material-icons">vpn_key</span></label>
+                    <input class="login" type="password" name="senha" id="isenha">
+                </p>
+
+                <p>
+                    <input class="botao" type="submit" value="Entrar">
+                </p>
+                <p>
+                    <input class="botao -color" type="submit" value="Esqueci a senha">
+                </p>
+            </form>
         </section>
-        <form action="cadastero.php" method="get" autocomplete="on">
-            <p class="border">
-                <label for="iemail"><span class="material-icons">person</span></label>
-                <input class="login" type="email" name="email" id="iemail" autocomplete="email">
-            </p>
-
-            <p class="border">
-                <label for="isenha"><span class="material-icons">vpn_key</span></label>
-                <input class="login" type="password" name="senha" id="isenha">
-            </p>
-
-            <p>
-                <input class="botao" type="submit" value="Entrar">
-            </p>
-            <p>
-                <input class="botao -color" type="submit" value="Esqueci a senha">
-            </p>
-        </form>
     </main>
 </body>
 </html>
