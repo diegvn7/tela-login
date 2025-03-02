@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
+
+/* tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section {
         width: 600px;
+        height: 610px;
     }
 
     div#imagem {
@@ -10,10 +13,32 @@
     }
 
     .login {
-        width: 578px;
+        width: 550px;
     }
 
     .border {
         width: 584px;
+    }
+
+    .botao {
+        width: 590px;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    section {
+        width: 900px;
+        height: 610px;
+    }
+
+    div#imagem {
+        display: inline-block;
+        width: 500px;
+        background: wheat url(../imagens/basquete-g.jpg) center right fixed;
+    }
+
+    .login {
+        
+        margin: auto;
     }
 }
