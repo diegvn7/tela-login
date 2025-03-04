@@ -4,41 +4,33 @@
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section {
-        width: 600px;
-        height: 610px;
+        width: 90vw;
+        height: 630px;
     }
 
     div#imagem {
-        width: 600px;
-    }
-
-    .login {
-        width: 550px;
-    }
-
-    .border {
-        width: 584px;
-    }
-
-    .botao {
-        width: 590px;
+        width: 100%;
     }
 }
+    
 
 @media screen and (min-width: 993px) {
     section {
-        width: 900px;
-        height: 610px;
+        width: 950px;
     }
 
     div#imagem {
-        display: inline-block;
-        width: 500px;
-        background: wheat url(../imagens/basquete-g.jpg) center right fixed;
+        width: 47%;
+        height: 100%;
+        float: left;
     }
 
-    .login {
-        
-        margin: auto;
+    form {
+        float: right;
+        width: 50%;
+    }
+
+    p#txt {
+        padding-left: 480px;
     }
 }
