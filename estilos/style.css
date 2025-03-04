@@ -27,6 +27,7 @@ section {
     border-radius: 20px;
     width: 300px;
     height: 650px;
+    overflow: hidden;
 }
 
 h1 {
@@ -38,10 +39,10 @@ h1 {
 }
 
 div#imagem {
-    border-radius: 20px 20px 0px 0px;
     height: 250px;
     background: wheat url(../imagens/basquete-novo.jpg) center right fixed;
     background-size: cover;
+    display: block;
 }
 
 p#txt {
@@ -50,8 +51,14 @@ p#txt {
     padding-right: 20px;
 }
 
+form {
+    padding: 10px;
+    display: block;
+}
+
 .login {
-    width: 88%;
+    padding-left: 5px;
+    width: calc(100% - 44px);
     height: 40px;
     border-radius: 10px;
     font-size: 18px;
@@ -60,16 +67,17 @@ p#txt {
 label {
     vertical-align: middle;
     color: white;
+    padding-left: 5px;
 }
 
-.border {
+ .border {
     width: 100%;
     padding-top: 3px;
     padding-bottom: 3px;
     background-color: rgb(241, 8, 8);
     border-radius: 10px;
     margin-bottom: 5px;
-    
+
 }
 
 .botao {
